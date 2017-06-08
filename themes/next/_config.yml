@@ -78,9 +78,9 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+#scheme: Muse
 #scheme: Mist
-#scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -161,7 +161,7 @@ social_icons:
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.jpg
 # in site  directory(source/uploads): /uploads/avatar.jpg
-#avatar:
+avatar: https://avatars1.githubusercontent.com/u/4612056?v=3&u=62754e593d43beb7877ff164e96111c7d1cb1f0d&s=400
 
 
 # Table Of Contents in the Sidebar
@@ -173,7 +173,7 @@ toc:
 
   # If true, all words will placed on next lines if header width longer then sidebar width.
   wrap: false
-  
+
 
 # Creative Commons 4.0 International License.
 # http://creativecommons.org/
@@ -310,7 +310,7 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
+  enable: true
   shortname:
   count: true
 
@@ -322,9 +322,9 @@ disqus:
 
 # changyan
 changyan:
-  enable: false
-  appid:
-  appkey:
+  enable: true
+  appid: cyt3mh4iu
+  appkey: 42b1d235bd0b86f8ee3cfbba9a26d6fb
 
 # Support for youyan comments system.
 # You can get your uid from http://www.uyan.cc
@@ -406,11 +406,11 @@ vkontakte_api:
 
 # Star rating support to each article.
 # To get your ID visit https://widgetpack.com
-rating: 
+rating:
   enable: false
   id:     #<app_id>
   color:  fc6423
-  
+
 
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.

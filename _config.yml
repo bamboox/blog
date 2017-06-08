@@ -90,4 +90,3 @@ deploy:
   type: git
   repo: git@github.com:bamboox/bamboox.github.io.git
   branch: master
-  message: update
