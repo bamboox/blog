@@ -65,10 +65,28 @@ pagination_dir: page
 ## Themes: https://hexo.io/themes/
 theme: yilia
 
+jsonContent:
+    meta: false
+    pages: false
+    posts:
+      title: true
+      date: true
+      path: true
+      text: false
+      raw: false
+      content: false
+      slug: false
+      updated: false
+      comments: false
+      link: false
+      permalink: false
+      excerpt: false
+      categories: false
+      tags: true
+
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
   repo: git@github.com:bamboox/bamboox.github.io.git
   branch: master
-  user.name: bamboo
