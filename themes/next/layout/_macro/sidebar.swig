@@ -10,7 +10,7 @@
   <aside id="sidebar" class="sidebar">
     <div class="sidebar-inner">
 
-      {% set display_toc = is_post and theme.toc.enable or is_page and theme.toc.enable %}
+      {% set display_toc = is_post and theme.toc.enable %}
 
       {% if display_toc and toc(page.content).length > 1 %}
         <ul class="sidebar-nav motion-element">
@@ -69,7 +69,10 @@
           {% endif %}
 
         </nav>
-
+	<div id="music163player">
+    <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=280 height=86 src="//music.163.com/outchain/player?type=2&id=188674&auto=1&height=66">
+    </iframe>
+</div>		
         {% if theme.rss %}
           <div class="feed-link motion-element">
             <a href="{{ url_for(theme.rss) }}" rel="alternate">
@@ -156,5 +159,5 @@
       {% endif %}
 
     </div>
-  </aside>
 {% endmacro %}
+
