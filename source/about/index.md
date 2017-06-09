@@ -4,7 +4,7 @@ date: 2016-09-04 17:59:49
 type: "about"
 
 ---
-![](http://oova2i5xh.bkt.clouddn.com/head5.jpg)
+![](http://orahxdcid.bkt.clouddn.com/head_01.jpg)
 
 <font color=#fff size=5>致追逐繁星的你：</font></br>
 
