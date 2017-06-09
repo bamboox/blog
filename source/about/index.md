@@ -18,10 +18,14 @@ type: "about"
 
 <font color=#fff size=4>狭长的车厢，挤满了多少疲惫生活里的英雄梦想</font></br>
 
-<font color=#fff size=4>不管多晚都有一掌灯为我而亮</font></br>
+<font color=#fff size=4>不管多晚都有一掌灯为你而亮</font></br>
 
 <font color=#fff size=4>把想对你说的用爱煲成汤</font></br>
 
 <font color=#fff size=4>对相爱的人来说对方的心就是最好的房子</font></br>
+
+<font color=#fff size=4>我想有个家一个不需要华丽的地方</font></br>
+
+<font color=#fff size=4>一起吃顿晚饭是我小小的奢望</font></br>
 
 
