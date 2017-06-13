@@ -78,9 +78,28 @@ hexo sever（可简写为hexo s）
 
 - 开启本地服务(第5、6步的操作可以合并成hexo s -g)
 
+
 此时打开浏览器，在地址栏输入http://localhost:4000/
 
-3 部署博客到服务器
+3优化
+----
+1，找到 after-footer.ejs把
+```
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+```
+替换
+```
+<script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js“ > </script>
+```
+2，找到 header.ejs
+```
+<link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel=”stylesheet” type=”text/css”>
+```
+替换
+```
+    <link href="//fonts.useso.com/css?family=Source+Code+Pro" rel="stylesheet" type="text/css">
+```
+4 部署博客到服务器
 --------
 
 也就是把博客部署到github page提供的服务器上。
