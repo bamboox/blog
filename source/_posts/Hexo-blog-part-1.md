@@ -37,6 +37,11 @@ Gitpage+hexo
 cd /
 npm install hexo-cli -g
 ```
+建议使用cnpm
+```
+npm install -g cnpm --registry=https://registry.npm.taobao.org
+```
+
 
 
 命令解释：
@@ -83,7 +88,7 @@ hexo sever（可简写为hexo s）
 
 3优化
 ----
-1，找到 after-footer.ejs把
+1，找到 /themes/landscape/layout/_partial/after-footer.ejs把
 ```
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 ```
@@ -91,7 +96,7 @@ hexo sever（可简写为hexo s）
 ```
 <script src="http://cdn.bootcss.com/jquery/2.1.1/jquery.min.js“ > </script>
 ```
-2，找到 header.ejs
+2，找到 /themes/landscape/layout/_partial/header.ejs
 ```
 <link href="//fonts.googleapis.com/css?family=Source+Code+Pro" rel=”stylesheet” type=”text/css”>
 ```
