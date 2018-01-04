@@ -5,6 +5,11 @@ tags: python
 categories: python 
 ---
 
+### curl 
+
+curl  "http://admin:random_password@10.189.195.39:2999/api/dashboards/db/bls_mysql_metrics"
+
+### python
 ```
 import urllib2, base64
 

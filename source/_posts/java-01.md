@@ -8,20 +8,24 @@ categories: java
 ## 编程中使用二进制进行权限或状态控制
 
 ## 与或非运算符
+
 - &是按位与(双目运算符,需要2个操作数) 
 - |是按位或(双目运算符) 
 - ～是按位非(单目运算符) 
+
 ### 例子
+
 * 1&0=0, 0&1=0, 0&0=0, 1&1=1 
 * 1|0=1, 0|1=1, 0|0=0, 1|1=1 
 * ~1=0,~0=1 
 * a|=b等价于a=a|b; 同理a&=b等价于a=a&b 
 
 <!--more-->
-### java例子
 
-```package test;  
-  
+### java例子 
+
+```
+package test;  
 public class Rights {  
   
     public static void main(String[] args) {  
@@ -42,6 +46,7 @@ public class Rights {
 ```
 
 ## 使用二进制进行权限或状态控制
+
 ```
 package test;  
   
@@ -132,6 +137,7 @@ public static void main(String[] args) {
 ```
 
 ## 二进制和十进制之间的转换
+
 ```
 package test;  
   
